@@ -78,3 +78,13 @@ footer{
 .description h3{
     font-size: 24px;
 }
+@media screen and (max-width: 450px){
+    .formContainer{
+        float:none;
+        margin: auto;
+    }
+    .description{
+        display: block;
+        text-align: left;
+    }
+}
